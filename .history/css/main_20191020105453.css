@@ -1,0 +1,57 @@
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-baackground-size: cover;
+    background-size: cover; 
+    position: absolute;
+}
+
+.carousel-caption {
+    bottom: 300px !important;
+}
+
+.carousel-caption h5{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top:25px;
+}
+
+.navbar-light .nav-link{
+    text-transform: uppercase;
+    color: #ffffff !important; 
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-brand{
+    color: #ffffff !important;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.nav-link:active, .nav-link:hover {
+    color: #F75A4C !important;
+}
+.carousel-caption .btn {
+    margin: 30px 20px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    background: #F75A4C;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.carousel-caption .btn:hover {
+    background: #454244;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #285e8e; /*set the color you want here*/
+}

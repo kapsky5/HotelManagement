@@ -1,0 +1,64 @@
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-baackground-size: cover;
+    background-size: cover; 
+    position: absolute;
+}
+
+.carousel-caption {
+    top: 40% !important;
+}
+
+.carousel-caption h5{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top:25px;
+}
+
+.navbar-light .nav-link{
+    text-transform: uppercase;
+    color: #ffffff !important; 
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-brand{
+    color: #ffffff !important;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.nav-link:active, .nav-link:hover {
+    color: #F75A4C !important;
+}
+.carousel-caption .btn {
+    margin: 40px 20px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    background: #F75A4C;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.carousel-caption .btn:hover{
+    background: #454244;
+}
+.fac{
+    margin: 0 auto;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.tabx a:hover{
+    color: #F75A4C
+}
+.tabs.nav-item.nav-link.active{
+    background-color: #ffffff !important;
+}
+.tabx{
+    color: #454244;
+
+}
